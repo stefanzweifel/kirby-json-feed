@@ -6,7 +6,7 @@ Kirby Plugin to serve a JSON Feed. This plugin implements some of the structure 
 
 Put the `json-feed.php` File in the `/site/plugins/json-feed` folder.
 
-### Advanced with Git Submodules
+### Advanced: Git Submodules
 
 ```shell
 git submodule add https://github.com/stefanzweifel/kirby-json-feed.git site/plugins/json-feed

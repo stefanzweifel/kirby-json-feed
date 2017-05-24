@@ -1,0 +1,14 @@
+{
+    "name": "stefanzweifel/kirby-json-feed",
+    "description": "Kirby JSON RSS Feed Plugin",
+    "authors": [
+        {
+            "name": "Stefan Zweifel",
+            "email": "hello@stefanzweifel.io"
+        }
+    ],
+    "keywords": ["kirby", "cms", "json", "feed", "plugin"],
+    "homepage": "https://github.com/stefanzweifel/kirby-json-feed",
+    "license": "MIT",
+    "require": {}
+}
