@@ -4,7 +4,7 @@
 * JSON Feed Plugin
 *
 * @author Stefan Zweifel <hello@stefanzweifel.io>
-* @version 1.0.0
+* @version 1.1.0
 */
 Pages::$methods['jsonfeed'] = function($pages, $params = array()) {
 

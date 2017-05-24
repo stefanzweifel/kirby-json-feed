@@ -2,7 +2,7 @@
   "name": "kirby-json-feed",
   "description": "Kirby JSON RSS Feed Plugin",
   "author": "Stefan Zweifel <hello@stefanzweifel.io>",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "kirby-plugin",
   "license": "MIT"
 }
