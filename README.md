@@ -31,6 +31,15 @@ git submodule add https://github.com/stefanzweifel/kirby-json-feed.git site/plug
 
 4. Visit `/feed` on your site and you should see your new JSON RSS Feed.
 
+## List of Supported RSS Readers
+
+A short ongoing list of RSS Readers which already support the JSON Format.
+
+- [Feedbin](https://feedbin.com) - [Blogpost](https://feedbin.com/blog/2017/05/22/feedbin-supports-json-feed/)
+- [Newsblur](http://newsblur.com) - [Blogpost](http://blog.newsblur.com/post/160982162270/newsblur-now-supports-the-new-json-feed-spec)
+
+Feel free to open an Issue or Pull request if you know more readers which support this new standard (Or if there's another list of supported readers).
+
 ## License
 
 MIT
