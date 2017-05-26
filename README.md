@@ -29,9 +29,17 @@ git submodule add https://github.com/stefanzweifel/kirby-json-feed.git site/plug
 ?>
 ```
 
+Currently the following options can be passed to the `jsonfeed` method:
+
+- `title`: The title which should be display in the feed
+- `feed`: The URL where the JSON Feed will be available (e.g http://domain.com/feed)
+- `datefield`: The Field which should be used for the `date_modified` key (Defaults to `date`)
+- `textfield`: The Field which should be used for the `content_html` key (Defaults to `text`)
+
+
 4. Visit `/feed` on your site and you should see your new JSON RSS Feed.
 
-## List of Supported RSS Readers
+## List of Supported RSS Readers
 
 A short ongoing list of RSS Readers which already support the JSON Format.
 
