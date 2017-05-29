@@ -27,6 +27,7 @@ Pages::$methods['jsonfeed'] = function($pages, $params = array()) {
             'url' => $item->url(),
             'title' => $item->title()->value(),
             'content_html' => $item->{$options['textfield']}()->kirbytext()->value,
+            'date_published' => $item->date('c', $options['datefield']),
             'date_modified' => $item->date('c', $options['datefield'])
         );
     }
