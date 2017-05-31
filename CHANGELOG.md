@@ -1,5 +1,9 @@
 # Changelog
 
+### v1.3.0
+
+- `date_modified` uses Kirby's `$page->modified()` helper
+
 ### v1.2.0
 
 - Add `date_published` key to item list

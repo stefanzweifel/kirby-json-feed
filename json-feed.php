@@ -5,7 +5,9 @@
  *
  * @author Stefan Zweifel <hello@stefanzweifel.io>
  *
- * @version 1.2.0
+ * @url https://github.com/stefanzweifel/kirby-json-feed
+ *
+ * @version 1.3.0
  */
 Pages::$methods['jsonfeed'] = function ($pages, $params = []) {
 
@@ -29,7 +31,7 @@ Pages::$methods['jsonfeed'] = function ($pages, $params = []) {
             'title'          => $item->title()->value(),
             'content_html'   => $item->{$options['textfield']}()->kirbytext()->value,
             'date_published' => $item->date('c', $options['datefield']),
-            'date_modified'  => $item->date('c', $options['datefield']),
+            'date_modified' => $item->modified('Y-m-d\TH:i:sP')
         ];
     }
 
